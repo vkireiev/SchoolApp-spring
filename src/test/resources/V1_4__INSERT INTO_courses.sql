@@ -1,0 +1,11 @@
+INSERT INTO courses(id, name, description) VALUES(1, 'ARCHITECTURE', 'Description ARCHITECTURE');
+INSERT INTO courses(id, name, description) VALUES(2, 'COMPUTER SCIENCE', 'Description COMPUTER SCIENCE');
+INSERT INTO courses(id, name, description) VALUES(3, 'ECONOMICS', 'Description ECONOMICS');
+INSERT INTO courses(id, name, description) VALUES(4, 'GEOGRAPHY', 'Description GEOGRAPHY');
+INSERT INTO courses(id, name, description) VALUES(5, 'HISTORY', 'Description HISTORY');
+INSERT INTO courses(id, name, description) VALUES(6, 'LAW', 'Description LAW');
+INSERT INTO courses(id, name, description) VALUES(7, 'MATHEMATICS', 'Description MATHEMATICS');
+INSERT INTO courses(id, name, description) VALUES(8, 'MEDICINE', 'Description MEDICINE');
+INSERT INTO courses(id, name, description) VALUES(9, 'PHILOSOPHY', 'Description PHILOSOPHY');
+INSERT INTO courses(id, name, description) VALUES(10, 'SOCIOLOGY', 'Description SOCIOLOGY');
+ALTER SEQUENCE courses_id_seq RESTART WITH 25;

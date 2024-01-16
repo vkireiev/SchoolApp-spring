@@ -1,0 +1,11 @@
+INSERT INTO groups(id, name) VALUES (1, 'EM-32');
+INSERT INTO groups(id, name) VALUES (2, 'UJ-33');
+INSERT INTO groups(id, name) VALUES (3, 'FE-22');
+INSERT INTO groups(id, name) VALUES (4, 'NU-88');
+INSERT INTO groups(id, name) VALUES (5, 'CI-37');
+INSERT INTO groups(id, name) VALUES (6, 'AR-49');
+INSERT INTO groups(id, name) VALUES (7, 'KK-73');
+INSERT INTO groups(id, name) VALUES (8, 'QR-95');
+INSERT INTO groups(id, name) VALUES (9, 'RI-47');
+INSERT INTO groups(id, name) VALUES (10, 'IC-83');
+ALTER SEQUENCE groups_id_seq RESTART WITH 25;
